@@ -7,14 +7,12 @@ import PortfolioSection from "./component/passionsection.js";
 function App() {
   return (
     <div className="App">
-      <header className="App-body">
-        {/* <div className="body-background"> */}
+      <div className="App-body">
         <NavBar />
         <HeaderSection />
         <PassionsSection />
         <PortfolioSection />
-        {/* </div> */}
-      </header>
+      </div>
     </div>
   );
 }
