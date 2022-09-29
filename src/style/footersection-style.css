@@ -1,10 +1,24 @@
+.footer-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-title > h1 {
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .footer-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
 }
 
 .github {
@@ -13,6 +27,8 @@
   flex-direction: column;
   justify-self: center;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .instagram {
@@ -21,6 +37,8 @@
   flex-direction: column;
   justify-self: center;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .email {
@@ -29,6 +47,8 @@
   flex-direction: column;
   justify-self: center;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .tel {
   color: aliceblue;
@@ -36,4 +56,18 @@
   flex-direction: column;
   justify-self: center;
   align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media only screen and (max-width: 807px) {
+  .footer-bar {
+    flex-direction: column;
+  }
+  .tel {
+    order: 3;
+  }
+  .email {
+    order: 4;
+  }
 }
