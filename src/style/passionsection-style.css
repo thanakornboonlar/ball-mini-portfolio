@@ -1,9 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .passion-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .title {
@@ -11,7 +19,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 120px 0 0 0;
+  margin: 50px 0 50px 0;
   padding: 0;
 }
 .title > h1 {
@@ -19,6 +27,7 @@
   padding: 0;
   margin: 10px;
   font-size: 35px;
+  color: #ffffff;
 }
 #first-word {
   font-weight: 400;
@@ -33,11 +42,143 @@
   align-items: center;
   width: 100%;
 }
-.passion-box {
+.passion-card {
   width: 350px;
-  /* min-width: 280px; */
+  min-width: 280px;
   height: 280px;
-  background-color: aliceblue;
-  border-radius: 13px;
-  margin: 25px 25px 25px 25px;
+  border-radius: 10px;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.passion-card:hover {
+  box-shadow: 0px 0px 10px skyblue;
+}
+.passion-card-fullstack {
+  width: auto;
+  min-width: 280px;
+  height: 280px;
+  border-radius: 10px;
+  background-color: #2c2c2c;
+  color: #ffffff;
+  /* margin: 25px 25px 25px 25px; */
+  padding: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.passion-card-fullstack:hover {
+  box-shadow: 0px 0px 10px skyblue;
+}
+.passion-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-pic {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pic-tailwind {
+  width: 130px;
+  height: 130px;
+}
+.pic-tailwind > img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-react {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+}
+.pic-react > img {
+  width: 100%;
+  height: 100%;
+}
+
+#font-end {
+  font-weight: 700;
+}
+#dev {
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.pic-nodejs {
+  width: 130px;
+  height: 130px;
+}
+.pic-nodejs > img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-mongodb {
+  width: 130px;
+  height: 130px;
+}
+.pic-mongodb > img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-html {
+  width: 130px;
+  height: 130px;
+  padding: 5px;
+}
+.pic-html > img {
+  width: 100%;
+  height: 100%;
+}
+.pic-css {
+  width: 130px;
+  height: 130px;
+  padding: 5px;
+}
+.pic-css > img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-javascript {
+  width: 130px;
+  height: 130px;
+  padding: 15px;
+}
+.pic-javascript > img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-redux {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+}
+.pic-redux > img {
+  width: 100%;
+  height: 100%;
+}
+
+.pic-postgresql {
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+}
+.pic-postgresql > img {
+  width: 100%;
+  height: 100%;
 }

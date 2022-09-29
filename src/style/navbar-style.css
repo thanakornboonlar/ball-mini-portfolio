@@ -26,8 +26,9 @@
   font-size: 35px;
   color: #ffffff;
   padding: 0;
-  margin: 0 25px 0 0;
+  margin: 0 25px 0 25px;
   min-width: 136px;
+  text-align: center;
 }
 .header-logo > h2 {
   font-weight: 400;

@@ -4,8 +4,8 @@ function NavBar() {
   return (
     <nav className="header-bar">
       <div className="header-logo">
-        <h1>B e a s t</h1>
-        <h2>B a l l</h2>
+        <h1>B A L L</h1>
+        <h2>D e v e l o p e r</h2>
       </div>
       <div className="nav-bar">
         <div className="nav-item">About</div>

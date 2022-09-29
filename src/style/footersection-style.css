@@ -1,0 +1,39 @@
+.footer-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.github {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.instagram {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.email {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+.tel {
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
