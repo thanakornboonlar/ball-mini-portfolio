@@ -43,26 +43,11 @@
   flex-wrap: nowrap;
   width: 100%;
 }
+
 .passion-card {
-  width: 350px;
-  min-width: 280px;
-  height: 280px;
-  border-radius: 10px;
-  background-color: #2c2c2c;
-  color: #ffffff;
-  padding: 26px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.passion-card:hover {
-  box-shadow: 0px 0px 10px skyblue;
-}
-.passion-card-fullstack {
   width: auto;
   min-width: 280px;
-  height: 280px;
+  height: auto;
   border-radius: 10px;
   background-color: #2c2c2c;
   color: #ffffff;
@@ -72,10 +57,12 @@
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  flex-wrap: nowrap;
 }
-.passion-card-fullstack:hover {
+.passion-card:hover {
   box-shadow: 0px 0px 10px skyblue;
+}
+.passion-card p {
+  text-align: center;
 }
 .passion-title {
   display: flex;
@@ -190,31 +177,15 @@
     flex-direction: column;
   }
 }
-@media only screen and (max-width: 807px) {
-  .passion-card-fullstack {
-    margin: 25px;
-    width: 350px;
-    max-width: 350px;
-    height: auto;
-  }
-  .passion-card-fullstack > p {
-    text-align: center;
-  }
-}
-@media only screen and (max-width: 892px) {
-  .passion-card-fullstack {
-    margin: 25px;
-    max-width: 350px;
-    height: auto;
-  }
-  .passion-card-fullstack > p {
-    text-align: center;
+@media only screen and (max-width: 500px) {
+  .passion-title {
+    flex-direction: column;
   }
 }
 
 @media only screen and (max-width: 1700px) {
   .passion-container {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .passion-card {
