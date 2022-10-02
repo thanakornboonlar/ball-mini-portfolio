@@ -95,9 +95,6 @@
   .nav-item {
     display: none;
   }
-  .item-dropdown {
-    display: none;
-  }
 }
 @media only screen and (min-width: 808px) {
   .nav-dropdown {
