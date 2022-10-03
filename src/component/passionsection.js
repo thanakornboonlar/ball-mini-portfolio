@@ -45,7 +45,7 @@ function PassionsSection() {
             <h2 id="font-end">Front-End</h2>
             <h2 id="dev"> Developer</h2>
           </div>
-          <p>(React, Redux, Tailwind)</p>
+          <p>(React, Tailwind, Redux)</p>
         </div>
         <div className="passion-card">
           <div className="card-pic">
@@ -67,7 +67,7 @@ function PassionsSection() {
             <h2 id="font-end">Back-End</h2>
             <h2 id="dev"> Developer</h2>
           </div>
-          <p>(NodeJS, PostgreSQL, mongoDB)</p>
+          <p>(NodeJS, mongoDB, PostgreSQL)</p>
         </div>
 
         {/* <div className="passsion-card"></div> */}
