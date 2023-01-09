@@ -19,7 +19,15 @@ function NavBar() {
         <div className="nav-bar">
           <div className="nav-item">About</div>
           <div className="nav-item">Passions</div>
-          <div className="nav-item">Portfolio</div>
+          <div className="nav-item">
+            <a
+              href="https://get-that-job.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Project
+            </a>
+          </div>
           <div className="nav-item">Contact</div>
         </div>
         <div className="nav-dropdown" onClick={handleClick}>

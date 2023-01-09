@@ -1,4 +1,26 @@
 /* import navbar-style  */
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+a:link {
+  text-decoration: inherit;
+}
+
+a:visited {
+  text-decoration: inherit;
+}
+
+a:hover {
+  text-decoration: inherit;
+}
+
+a:active {
+  text-decoration: inherit;
+}
+
 .nav-section {
   display: flex;
   flex-direction: column;

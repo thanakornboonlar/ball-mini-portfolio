@@ -38,14 +38,14 @@ function PassionsSection() {
               />
             </div>
             <div className="pic-redux">
-              <img src="https://i.ibb.co/wwHPqg2/redux2.png" alt="redux" />
+              <img src="https://i.ibb.co/pWQvL0y/mui-logo.png" alt="redux" />
             </div>
           </div>
           <div className="passion-title">
             <h2 id="font-end">Front-End</h2>
             <h2 id="dev"> Developer</h2>
           </div>
-          <p>(React, Tailwind, Redux)</p>
+          <p>(React, Tailwind, Mui)</p>
         </div>
         <div className="passion-card">
           <div className="card-pic">
@@ -68,6 +68,28 @@ function PassionsSection() {
             <h2 id="dev"> Developer</h2>
           </div>
           <p>(NodeJS, mongoDB, PostgreSQL)</p>
+        </div>
+        <div className="passion-card">
+          <div className="card-pic">
+            <div className="pic-postgresql">
+              <img src="https://i.ibb.co/DCjxGqh/Git.png" alt="git" />
+            </div>
+
+            <div className="pic-github">
+              <img src="https://i.ibb.co/CvF08nN/gh.png" alt="github" />
+            </div>
+            <div className="pic-github">
+              <img
+                src="https://i.ibb.co/WBhbPbD/cloudinary-web-favicon.png"
+                alt="postgresql"
+              />
+            </div>
+          </div>
+          <div className="passion-title">
+            <h2 id="font-end">Other</h2>
+            {/* <h2 id="dev"> Developer</h2> */}
+          </div>
+          <p>(Git, Github, Cloudinary)</p>
         </div>
 
         {/* <div className="passsion-card"></div> */}
