@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ball-mini-portfolio/static/css/main.a7d276ad.css",
-    "main.js": "/ball-mini-portfolio/static/js/main.44ca1128.js",
+    "main.js": "/ball-mini-portfolio/static/js/main.1819b4bc.js",
     "static/js/787.855f30ea.chunk.js": "/ball-mini-portfolio/static/js/787.855f30ea.chunk.js",
     "index.html": "/ball-mini-portfolio/index.html",
     "main.a7d276ad.css.map": "/ball-mini-portfolio/static/css/main.a7d276ad.css.map",
-    "main.44ca1128.js.map": "/ball-mini-portfolio/static/js/main.44ca1128.js.map",
+    "main.1819b4bc.js.map": "/ball-mini-portfolio/static/js/main.1819b4bc.js.map",
     "787.855f30ea.chunk.js.map": "/ball-mini-portfolio/static/js/787.855f30ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a7d276ad.css",
-    "static/js/main.44ca1128.js"
+    "static/js/main.1819b4bc.js"
   ]
 }
